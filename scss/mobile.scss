@@ -1,0 +1,61 @@
+//mainehader
+#mainheader {
+
+    .navbar {
+
+        .logo {
+            float: none;
+            display: block;
+            text-align: center;
+            margin: 0 auto;
+            margin-top: 1em;
+        }
+
+        ul {
+            text-align: center;
+            float: none;
+
+            li {
+                display: inline-block;
+                margin-top: 1em;
+            }
+        }
+    }
+
+    //showcase
+    .showcase-container {
+        display: block;
+
+        .showcase-content {
+            display: block;
+            text-align: center;
+            margin: 0 auto;
+            margin-bottom: 2em;
+
+            p {
+                text-align: center;
+                margin: 0 auto;
+                margin-bottom: 1em;
+            }
+            
+        }
+
+        #showcase-form {
+            margin: 0 auto;
+            width: 400px;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+//about
+#about {
+    .about-row {
+        display: block;
+    }
+}
+
+
