@@ -90,6 +90,13 @@ form {
     color: violet;
 }
 
+::placeholder {
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+    content: "\f007";
+    text-align: right;
+}
+
 //mainheader
 #mainheader {
     background: linear-gradient($primary-color, blue ) ;

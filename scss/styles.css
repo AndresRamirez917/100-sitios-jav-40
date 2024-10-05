@@ -82,6 +82,20 @@ form .button-2 {
   color: violet;
 }
 
+::-moz-placeholder {
+  font-family: "Font Awesome 5 free";
+  font-weight: 600;
+  content: "\f007";
+  text-align: right;
+}
+
+::placeholder {
+  font-family: "Font Awesome 5 free";
+  font-weight: 600;
+  content: "\f007";
+  text-align: right;
+}
+
 #mainheader {
   background: linear-gradient(rgb(0, 187, 255), blue);
 }
