@@ -157,6 +157,11 @@ form .button-2 {
   font-weight: lighter;
   text-align: left;
 }
+#about .about-container {
+  display: flex;
+  flex: 1;
+  gap: 20px;
+}
 #about .about-row {
   display: flex;
 }

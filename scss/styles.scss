@@ -169,8 +169,13 @@ form {
         text-align: left;
     }
 
-    .about-row {
+    .about-container {
+        display: flex;
+        flex: 1;
+        gap: 20px;
+    }
 
+    .about-row {
         .box {
             margin-left: 10px;
         }

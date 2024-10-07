@@ -35,6 +35,18 @@
   width: 100%;
 }
 
-#about .about-row {
+#about .container .about-container {
   display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+#about .container .about-container .about-row {
+  display: block;
+}
+#about .container .about-container .about-row img {
+  padding-top: 50px;
+  border-radius: 50%;
+}
+#about .container .about-container .about-row p {
+  text-align: justify;
 }/*# sourceMappingURL=mobile.css.map */

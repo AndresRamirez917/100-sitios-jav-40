@@ -53,8 +53,22 @@
 
 //about
 #about {
-    .about-row {
-        display: block;
+    .container {
+        .about-container {
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+            .about-row {
+                img {
+                    padding-top: 50px;
+                    border-radius: 50%;
+                }
+                display: block;
+                p {
+                    text-align: justify;
+                }
+            }
+        }
     }
 }
 
